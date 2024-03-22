@@ -8,8 +8,14 @@ public class PokemonGenerator {
     }
 
     // TODO Step i. Create the generateRandomLevel() method.
+    private int generateRandomLevel(){
+        return (int) (Math.random() * 5 + 1);
+    }
 
     // TODO Step iii a. Create the printPokemonGreetings() method.
+    private void printPokemonGreeting(){
+        System.out.println("I am " + );
+    }
 
     // TODO Step iv a. Create the printWaterPokemon() method.
 
