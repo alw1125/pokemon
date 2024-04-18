@@ -6,7 +6,7 @@ public class Charmander extends Pokemon implements INoise {
 
     @Override
     public void attack(Pokemon other) {
-        loseLifePoints(100 * level);
+        other.loseLifePoints(100 * level);
         lifePoint += 5;
         levelUp();
     }
